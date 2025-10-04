@@ -78,7 +78,7 @@
     async function loadLogs() {
       try {
         // Replace with your real API Gateway URL
-        const response = await fetch("YOUR_API_GATEWAY_URL");
+        const response = await fetch("https://e11fn4urkh.execute-api.us-east-1.amazonaws.com");
         const data = await response.json();
         const logsContainer = document.getElementById("logs");
 
